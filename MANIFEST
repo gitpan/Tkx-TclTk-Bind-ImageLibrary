@@ -1,0 +1,11 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Tkx-TclTk-Bind-ImageLibrary.t
+lib/Tkx/TclTk/Bind/ImageLibrary.pm
+lib/Tkx/TclTk/Bind/TAR/image.darwin.tar
+lib/Tkx/TclTk/Bind/TAR/image.linux.tar
+lib/Tkx/TclTk/Bind/TAR/image.mswin.tar
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

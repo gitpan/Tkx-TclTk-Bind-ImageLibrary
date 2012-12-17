@@ -1,0 +1,41 @@
+{
+   "abstract" : "Load and binding for Tcl/Tk Img-Library",
+   "author" : [
+      "Jürgen von Brietzke <brietzkej@(none)>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Tkx-TclTk-Bind-ImageLibrary",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Tkx::TclTk::Bind" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "v1.0.00"
+}
