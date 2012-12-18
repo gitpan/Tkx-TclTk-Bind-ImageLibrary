@@ -6,6 +6,6 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Tkx/TclTk/Bind/ImageLibrary.pm', # finds $VERSION
     PREREQ_PM         => { Tkx::TclTk::Bind => 0 },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT  => 'Load and binding for Tcl/Tk Img-Library',
+      (ABSTRACT  => 'Bind the Tcl/Tk Img4.0.4-library to Tkx',
        AUTHOR         => 'Jürgen von Brietzke <brietzkej@(none)>') : ()),
 );

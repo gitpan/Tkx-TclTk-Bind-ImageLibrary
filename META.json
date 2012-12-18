@@ -1,5 +1,5 @@
 {
-   "abstract" : "Load and binding for Tcl/Tk Img-Library",
+   "abstract" : "Bind the Tcl/Tk Img4.0.4-library to Tkx",
    "author" : [
       "Jürgen von Brietzke <brietzkej@(none)>"
    ],
@@ -37,5 +37,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "v1.0.00"
+   "version" : "v1.0.01"
 }
