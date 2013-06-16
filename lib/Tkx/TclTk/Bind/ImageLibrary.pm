@@ -7,15 +7,9 @@ package Tkx::TclTk::Bind::ImageLibrary;
 # # Standards  : Perl-Best-Practices                       severity 1 (brutal) #
 # # -------------------------------------------------------------------------- #
 # # Autoren    : Jürgen von Brietzke                                   JvBSoft #
-# # Version    : 1.0.01                                            18.Dez.2012 #
+# # Version    : 1.2.01                                            16.Jun.2013 #
 # # -------------------------------------------------------------------------- #
 # # Aufgabe    : Bindet die TclTk 'Img1.4.0.4' Bibliothek an Perl::Tkx         #
-# #              ------------------------------------------------------------- #
-# #              Erstellen der Image-Bibliothek:                               #
-# #              a) Download ActiveTcl 8.4.xx.x und installieren               #
-# #              b) Erzeugen eines TAR-Balls 'image.tar' mit folgenden Inhalt  #
-# #                 1) Verzeichnis 'Img1.4.0.4'                                #
-# #              c) TAR-Ball unter '.../lib/Tkx/TclTk/Bind/TAR installieren    #
 # # -------------------------------------------------------------------------- #
 # # Pragmas    : strict, warnings                                              #
 # # -------------------------------------------------------------------------- #
@@ -29,7 +23,7 @@ package Tkx::TclTk::Bind::ImageLibrary;
 use strict;
 use warnings;
 
-our $VERSION = q{1.0.01};
+our $VERSION = q{1.2.01};
 
 use Tkx::TclTk::Bind qw{ &load_library };
 
@@ -37,7 +31,7 @@ sub BEGIN {
 
    my $path_to_image_library;
 
-   my $temp_dir = load_library('image');
+   my $temp_dir = load_library( 'image', 'Img1.4.0.4' );
 
    # --- Steuervariablen belegen -----------------------------------------------
    $path_to_image_library = File::Spec->catfile( $temp_dir, 'Img1.4.0.4' );
@@ -78,7 +72,7 @@ Tkx::TclTk::Bind::ImageLibrary - Bind the Tcl/Tk B<'Img4.0.4'>-library to Tkx.
 
 =head1 VERSION
 
-This is version 1.0.01
+This is version 1.2.01
 
 =head1 SYNOPSIS
 

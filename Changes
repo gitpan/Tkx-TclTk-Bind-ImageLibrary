@@ -1,9 +1,12 @@
 Revision history for Perl extension Tkx::TclTk::Bind::ImageLibrary.
 
-1.0.00  Mon Dec 17 14:31:18 2012
+1.0.00  Mo. 17.Dez.2012 14:31:18
 	- original version; created by h2xs 1.23 with options
 		-XA -n Tkx::TclTk::Bind::ImageLibrary
-1.0.01  Mon Dec 18 15:35:11 2012
+
+1.0.01  Mo. 18.Dez.2012 15:35:11
 	- POD - Dokumentation verbessert
 	- package_require fuer alle pakete eingebaut
-	
+
+1.2.00  Sa. 15.Jun.2013 21:30:00
+   - Anbindung für Löschung überarbeitet
